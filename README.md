@@ -1,31 +1,3 @@
-language=['French','Japanese','German','Chinese','English']
-
-language.sort()
-
-
-print(language)
-
-
-language.sort(reverse=True)
-
-print(language)
-
-
-print(sorted(language))
-
-
-
-print(sorted(language,reverse=True))
-
-
-language.reverse()
-
-print(language)
-
-
-language.reverse()
-
-
-print(language)
+#此文件只用于wangxiwen练习python，c++以及发布通知，此外无其他用途，请勿在未经允许的情况下自行下载
 
 

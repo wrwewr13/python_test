@@ -1,0 +1,90 @@
+have_dinner_together=['Peter','Mark','Robert','king']
+
+
+
+have_dinner_together_new=have_dinner_together.pop(2)
+
+
+
+print(f"{have_dinner_together[0]},{have_dinner_together[1]},{have_dinner_together[2].title()},I want to have dinner with you,{have_dinner_together_new} won't come because he was ill.")
+
+
+print(f"I want to have dinner with {have_dinner_together[0]}.")
+
+
+
+print(f"I want to have dinner with {have_dinner_together[1]}.")
+
+
+
+print(f'I want to have dinner with {have_dinner_together[2].title()}.')
+
+have_dinner_together.insert(0,'nick')
+
+have_dinner_together.insert(2,'queen')
+
+
+
+
+have_dinner_together.append('Nicky')
+
+print(f'I want to have dinner with {have_dinner_together[0].title()},{have_dinner_together[1]},{have_dinner_together[2]},{have_dinner_together[3].title()},{have_dinner_together[4].title()},{have_dinner_together[5]}.')
+
+
+
+
+
+print(f"I want to have dinner with {have_dinner_together[0].title()}.")
+
+
+print(f"I want to have dinner with {have_dinner_together[1]}.")
+
+
+
+
+print(f"I want to have dinner with {have_dinner_together[2].title()}.")
+
+
+
+
+print(f"I want to have dinner with {have_dinner_together[3]}.")
+
+
+
+print(f"I want to have dinner with {have_dinner_together[4]}.")
+
+print(f"I want to have dinner with {have_dinner_together[5]}.")
+
+
+print(f"{have_dinner_together[0]},{have_dinner_together[1]},{have_dinner_together[2]},{have_dinner_together[3].title()},{have_dinner_together[4].title()},{have_dinner_together[5]},I'm so sorry I just can invite two people because my new table aren't arrive at my home.")
+
+
+
+Next_invite_1= have_dinner_together.pop(4)#king                     nick.peter queen mark king nicky
+
+Next_invite_2= have_dinner_together.pop(4)#nicky                         nick.peter queen mark  nicky
+
+Next_invite_3= have_dinner_together.pop(3)#mark                            nick.peter queen mark  
+
+
+need_del=have_dinner_together.pop(2)#queen                               nick.peter queen 
+
+
+#last nick.peter 
+
+
+print(f"Good luck ,{have_dinner_together[0].title()},,I will invite you to have dinner with me ! ")
+
+
+
+print(f"Good luck ,{have_dinner_together[1]},,I will invite you to have dinner with me ! ")
+
+
+del have_dinner_together[0]                  #last nick.peter 
+
+
+del have_dinner_together[0]                  #last peter 
+
+
+print(have_dinner_together)                  #check
+

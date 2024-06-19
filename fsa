@@ -1,0 +1,13 @@
+my_foods=['pizza','falafel','carrot cake']
+friend_foods = my_foods
+
+
+my_foods.append('cannoli')
+
+
+print('My favourite foods are:')
+print(my_foods)
+
+
+print("\n My friend's favourite foods are:")
+print(friend_foods)

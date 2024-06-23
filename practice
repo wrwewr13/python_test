@@ -1,0 +1,13 @@
+buffet_food=('meat','bread','rice','chess','pizza')
+for each_buffet_food in buffet_food:
+    print(each_buffet_food)
+
+
+
+print()
+
+
+
+buffet_food=('chips','bread','rice','cookies','pizza')
+for each_buffet_food in buffet_food:
+    print(each_buffet_food)

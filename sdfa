@@ -1,0 +1,9 @@
+ages = [11, 22, 33, 44, 55, 66, 77, 88, 99, 0]
+
+# 你可以改变这个 age 的值进行测试
+age = 33
+
+if age in ages:
+    print("You are right!")
+else:
+    print("Please try again!")

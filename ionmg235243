@@ -1,0 +1,23 @@
+river_country={
+    'nile River': 'sudan',
+    'amazon River': 'brazil',
+    'yangtze River': 'china',
+}
+
+for river , country in river_country.items():
+    print(f"The {river.title()} runs through {country.title()}")
+    
+
+print("\n")
+
+
+
+for river_name in river_country.keys():
+    print(river_name.title())
+
+
+print("\n")
+
+
+for country_name in river_country.values():
+    print(country_name.title())
